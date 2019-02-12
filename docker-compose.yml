@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  nginx:
+    build: 
+      context: ./
+    container_name: nginx
+    labels:
+      - "traefik.frontend.rule=Host:stoicatedy.ovh"
+    restart: always
+    networks:
+      - default
+
+networks:
+  default:
+    external:
+      name: web
