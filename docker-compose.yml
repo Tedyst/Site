@@ -1,12 +1,13 @@
-version: '3'
+version: "3"
 
 services:
   nginx:
-    build: 
+    build:
       context: ./
     container_name: nginx
     labels:
-      - "traefik.frontend.rule=Host:stoicatedy.ovh"
+      - traefik.frontend.rule=Host:stoicatedy.ovh,www.stoicatedy.ovh
+      - traefik.frontend.headers.customResponseHeaders=Strict-Transport-Security:max-age=63072000; includeSubDomains; preload
     restart: always
     networks:
       - default
