@@ -28,4 +28,12 @@ $("document").ready(function() {
     $("#text").removeClass("animated fadeOut");
     $("#text").css("display", "none");
   }, 500);
+  var options = {
+    strings: [
+      '<heading>Stoica Tedy</heading><p id="introduction">A junior programmer who loves backend and dislikes frontend.</p>'
+    ],
+    typeSpeed: 40,
+    showCursor: false
+  };
+  var typed = new Typed("#start", options);
 });
