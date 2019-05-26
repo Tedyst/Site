@@ -2,6 +2,9 @@ $("document").ready(function() {
   $("#info").click(function() {
     $("#right_panel").attr("src", "./pages/1.html#info");
   });
+  $("#github").click(function() {
+    window.location.href = "https://github.com/Tedyst";
+  });
 });
 
 setTimeout(function() {
