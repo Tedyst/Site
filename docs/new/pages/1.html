@@ -10,6 +10,12 @@
       href="https://cdn.jsdelivr.net/gh/zeva-ui/zeva/dist/css/zeva.min.css"
     />
     <link rel="stylesheet" type="text/css" href="../assets/css/main.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../assets/js/projects.js"></script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -27,27 +33,15 @@
     </div>
     <div id="info" class="insider animated fadeIn">
       <h2>Where can I be found?</h2>
-      <header>
-        <table>
-          <tbody>
-            <tr>
-              <td><i class="fab fa-github big-icon"></i></td>
-              <td><i class="fab fa-gitlab big-icon"></i></td>
-              <td><i class="fab fa-gitlab big-icon"></i></td>
-              <td><i class="fab fa-gitlab big-icon"></i></td>
-              <td><i class="fab fa-gitlab big-icon"></i></td>
-            </tr>
-            <tr>
-              <td>
-                <p id="introduction" align="center">GitHub<br />@Tedyst</p>
-              </td>
-              <td>
-                <p id="introduction" align="center">GitLab<br />@Tedyst</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </header>
+      <div id="where">
+        <a href="https://github.com/Tedyst" target="_parent">
+          <i class="fab fa-github big-icon"></i>
+        </a>
+      </div>
+    </div>
+    <div id="myprojects">
+      <h2>My projects</h2>
+      <div class="projects" id="projectslistid"></div>
     </div>
   </body>
 </html>

@@ -201,3 +201,91 @@ iframe {
 .big-icon {
   font-size: 10vw;
 }
+
+#where {
+  width: 100%;
+  text-align: left;
+}
+
+#where a {
+  font-size: 24px;
+  color: #bbb;
+  margin-right: 8vw;
+  margin-left: 5px;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+
+#where a:hover {
+  color: #fff;
+}
+
+.projects {
+  columns: 2;
+}
+
+.projects a {
+  width: 90%;
+}
+
+.projects section {
+  width: 85%;
+  padding: 2.5vh 5%;
+  display: inline-block;
+  border-radius: 5px;
+  color: var(--text-color);
+  border: 1px solid rgb(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
+  transition: 0.4s ease-in-out;
+  margin: 2vh 0px;
+  transform: scale(1);
+  background: rgb(20, 20, 20);
+}
+
+.projects section:hover {
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0, 0);
+  box-shadow: 0px 15px 35px rgb(0, 0, 0, 0.06);
+  transform: scale(1.03);
+}
+
+.section_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1vh 0px;
+  word-wrap: break-word;
+}
+
+.about_section {
+  font-size: 18px;
+  font-family: "Questrial", sans-serif;
+  margin: 2vh 0px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.bottom_section {
+  margin: 2vh 0px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.bottom_section span {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.bottom_section span i {
+  font-size: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+}
