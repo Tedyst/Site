@@ -1,6 +1,28 @@
 $("document").ready(function() {
+  $("#homebutton").click(function() {
+    $("html, #right-panel").animate(
+      {
+        scrollTop: $("#right-panel").scrollTop() + $("#start").offset().top
+      },
+      500
+    );
+  });
   $("#info").click(function() {
-    $("#right_panel").attr("src", "./pages/1.html#info");
+    $("html, #right-panel").animate(
+      {
+        scrollTop:
+          $("#right-panel").scrollTop() + $("#informations").offset().top
+      },
+      500
+    );
+  });
+  $("#projectsbutton").click(function() {
+    $("html, #right-panel").animate(
+      {
+        scrollTop: $("#right-panel").scrollTop() + $("#myprojects").offset().top
+      },
+      500
+    );
   });
   $("#github").click(function() {
     window.location.href = "https://github.com/Tedyst";
