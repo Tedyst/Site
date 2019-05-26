@@ -1,4 +1,5 @@
-html {
+html,
+body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -31,7 +32,7 @@ header table tr td img {
   height: 40vh;
   max-height: 45vh;
   position: fixed;
-  border-radius: 25px;
+  border-radius: 5vh;
   left: 0;
   top: 0;
   padding: 4vh 4vw;
@@ -317,7 +318,9 @@ a {
     display: inline-block;
     width: 90vw;
     padding: 4vh 5vw;
-    height: 50vh;
+    height: auto;
+    overflow-y: auto;
+    max-height: 100%;
     text-align: center;
     position: relative;
   }
