@@ -16,6 +16,9 @@ header table tr td img {
   width: 40px;
   height: auto;
 }
+#info {
+  text-align: center;
+}
 #basic_info {
   width: 12vw;
   height: 40vh;
@@ -196,13 +199,15 @@ a {
     transform: rotate(360deg);
   }
 }
+
 .big-icon {
   font-size: 10vw;
+  text-align: center;
 }
 
 #where {
   width: 100%;
-  text-align: left;
+  padding: 4vh 0;
 }
 
 #where a {
@@ -212,6 +217,9 @@ a {
   margin-left: 5px;
   border-radius: 50%;
   transition: 0.4s ease-in-out;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 #where a:hover {
