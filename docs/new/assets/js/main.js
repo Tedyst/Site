@@ -8,6 +8,9 @@ $("document").ready(function() {
   $("#email").click(function() {
     window.location.href = "mailto:stoicatedy@gmail.com";
   });
+  $("#linkedin").click(function() {
+    window.location.href = "https://www.linkedin.com/in/stoica-tedy-bb29b8163/";
+  });
   setTimeout(function() {
     $("#leftloading").addClass("animated fadeOut");
     $("#rightloading").addClass("animated fadeOut");
