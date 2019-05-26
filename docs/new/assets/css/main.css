@@ -18,8 +18,8 @@ header table tr td img {
 }
 #basic_info {
   width: 12vw;
-  height: 20vh;
-  max-height: 30vh;
+  height: 30vh;
+  max-height: 45vh;
   position: fixed;
   left: 0;
   top: 0;
@@ -32,10 +32,10 @@ header table tr td img {
 
 #left_panel {
   width: 12vw;
-  height: 68vh;
+  height: 65vh;
   position: fixed;
   left: 0;
-  top: 50vh;
+  top: 45vh;
   padding: 4vh 4vw;
   border-right: 2px solid rgb(20, 20, 20);
   margin-bottom: 4vh;
