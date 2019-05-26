@@ -83,6 +83,7 @@ header table tr td img {
   height: 12vw;
   border-radius: 0.1rem;
   background-size: cover !important;
+  border-radius: 20px;
 }
 a {
   color: #fff;
