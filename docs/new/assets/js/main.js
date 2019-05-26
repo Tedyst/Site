@@ -5,7 +5,9 @@ $("document").ready(function() {
   $("#github").click(function() {
     window.location.href = "https://github.com/Tedyst";
   });
-
+  $("#email").click(function() {
+    window.location.href = "mailto:stoicatedy@gmail.com";
+  });
   setTimeout(function() {
     $("#leftloading").addClass("animated fadeOut");
     $("#rightloading").addClass("animated fadeOut");

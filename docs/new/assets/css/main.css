@@ -203,6 +203,7 @@ a {
 .big-icon {
   font-size: 10vw;
   text-align: center;
+  padding: 5vh;
 }
 
 #where {
