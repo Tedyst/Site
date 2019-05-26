@@ -1,5 +1,5 @@
 $.getJSON(
-  "https://api.github.com/users/TEdyst/repos?type=owner&sort=pushed&page=1",
+  "https://api.github.com/users/Tedyst/repos?type=owner&sort=pushed&page=1",
   function(data) {
     var i, text;
     text = "";
@@ -30,6 +30,7 @@ $.getJSON(
       //   text += data[i]["name"] + "<br>";
     }
     document.getElementById("projectslistid").innerHTML = text;
-    console.log(text);
   }
-);
+).fail(function() {
+  document.getElementById("myprojects").innerHTML = "";
+});
