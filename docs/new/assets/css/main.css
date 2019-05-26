@@ -16,6 +16,12 @@ header table tr td img {
   width: 40px;
   height: auto;
 }
+#basic_info {
+  background-color: rgb(20, 20, 20);
+}
+#left_panel {
+  background-color: rgb(20, 20, 20);
+}
 #info {
   text-align: center;
 }
@@ -24,6 +30,7 @@ header table tr td img {
   height: 40vh;
   max-height: 45vh;
   position: fixed;
+  border-radius: 25px;
   left: 0;
   top: 0;
   padding: 4vh 4vw;
@@ -37,12 +44,14 @@ header table tr td img {
 
 #left_panel {
   width: 12vw;
-  height: 65vh;
+  height: 45vh;
+  border-radius: 25px;
   position: fixed;
   left: 0;
   top: 45vh;
   padding: 4vh 4vw;
   border-right: 2px solid rgb(20, 20, 20);
+  border-bottom: 2px solid rgb(20, 20, 20);
   margin-bottom: 4vh;
 }
 #left_panel b:hover {
@@ -297,7 +306,7 @@ a {
   background: var(--text-color);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   #profile_img {
     width: 120px;
     height: 120px;
@@ -305,19 +314,14 @@ a {
   }
   #basic_info {
     display: inline-block;
-    width: 100vw;
+    width: 90vw;
     padding: 4vh 5vw;
     height: 30vh;
     text-align: center;
     position: relative;
   }
   #left_panel {
-    width: 90vw;
     display: none;
-    padding: 4vh 5vw;
-    height: 60vh;
-    text-align: center;
-    position: relative;
   }
   #right-panel {
     position: relative;
