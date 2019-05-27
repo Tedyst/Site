@@ -52,10 +52,14 @@ $("document").ready(function() {
   }, 500);
   var options = {
     strings: [
+      '<heading>Stoica Tedy</heading><p id="introduction">A junior programmer who loves back-end</p>',
       '<heading>Stoica Tedy</heading><p id="introduction">A junior programmer who loves backend and dislikes frontend.</p>'
     ],
     typeSpeed: 40,
-    showCursor: false
+    showCursor: false,
+    smartBackspace: true,
+    backSpeed: 50,
+    backDelay: 0
   };
   var typed = new Typed("#start", options);
 });
