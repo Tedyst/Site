@@ -200,8 +200,8 @@ a {
   justify-content: center;
   flex-direction: column;
 }
-.text {
-  width: 100vw;
+.center {
+  width: 100%;
   text-align: center;
 }
 @keyframes rotate {
