@@ -25,12 +25,12 @@ header table tr td img {
 }
 #basic_info {
   background-color: rgb(20, 20, 20);
-  width: 12vw;
+  width: 11vw;
   height: 40vh;
   max-height: 45vh;
   position: fixed;
   border-radius: 2vh;
-  left: 0;
+  left: 1vw;
   top: 0;
   padding: 4vh 4vw;
   margin-bottom: 4vh;
@@ -41,15 +41,14 @@ header table tr td img {
 }
 
 #left_panel {
-  width: 12vw;
+  width: 11vw;
   height: 45vh;
   border-radius: 25px;
   position: fixed;
-  left: 0;
+  left: 1vw;
   top: 45vh;
   padding: 4vh 4vw;
-  border-right: 2px solid rgb(20, 20, 20);
-  border-bottom: 2px solid rgb(20, 20, 20);
+  border-radius: 2vh;
   margin-bottom: 4vh;
 }
 #left_panel b:hover {
