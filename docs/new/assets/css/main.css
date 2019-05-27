@@ -1,7 +1,6 @@
 html,
 body {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 header {
   width: 100%;
@@ -18,9 +17,6 @@ header table tr td img {
   width: 40px;
   height: auto;
 }
-#basic_info {
-  background-color: rgb(20, 20, 20);
-}
 #left_panel {
   background-color: rgb(20, 20, 20);
 }
@@ -28,6 +24,7 @@ header table tr td img {
   text-align: center;
 }
 #basic_info {
+  background-color: rgb(20, 20, 20);
   width: 12vw;
   height: 40vh;
   max-height: 45vh;
@@ -36,7 +33,6 @@ header table tr td img {
   left: 0;
   top: 0;
   padding: 4vh 4vw;
-  border-right: 2px solid rgb(20, 20, 20);
   margin-bottom: 4vh;
   font-weight: bold;
   margin: 1.5vh 0px;
@@ -204,6 +200,10 @@ a {
   justify-content: center;
   flex-direction: column;
 }
+.text {
+  width: 100vw;
+  text-align: center;
+}
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -319,7 +319,8 @@ a {
   #basic_info {
     display: inline-block;
     width: 90vw;
-    padding: 4vh 5vw;
+    padding: 4vh 0;
+    left: 5vw;
     height: auto;
     overflow-y: auto;
     max-height: 100%;
