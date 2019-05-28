@@ -1,3 +1,7 @@
+:root {
+  --bg-color: #1f1b24 !important;
+  --text-color: #fff;
+}
 html,
 body {
   scroll-behavior: smooth;
@@ -24,7 +28,7 @@ header table tr td img {
   text-align: center;
 }
 #basic_info {
-  background-color: rgb(20, 20, 20);
+  background-color: #121212;
   width: 11vw;
   height: 40vh;
   max-height: 45vh;
@@ -159,14 +163,14 @@ a {
 #leftloading {
   width: 50%;
   height: 100%;
-  background: #000;
+  background: #121212;
   position: fixed;
   left: 0;
 }
 #rightloading {
   width: 50%;
   height: 100%;
-  background: #000;
+  background: #121212;
   position: fixed;
   right: 0;
 }
