@@ -1,59 +1,115 @@
-<!DOCTYPE HTML>
-<html lang="en">
-
-<head>
-	<title>Stoica Tedy</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" rel=preload href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-</head>
-
-<body class="is-preload">
-
-	<div id="wrapper">
-
-		<section id="main">
-			<header>
-				<span class="avatar"><img src="images/avatar.webp" alt="" /></span>
-				<h1>Stoica Tedy</h1>
-				<p>Junior Programmer</p>
-			</header>
-			<footer>
-				<ul class="icons">
-					<li><a href="https://github.com/Tedyst" class="fa-github">GitHub</a></li>
-					<li><a href="https://gitlab.com/Tedyst" class="fa-gitlab">GitLab</a></li>
-					<li><a href="https://www.reddit.com/user/Tedyst" class="fa-reddit">Reddit</a></li>
-					<li><a href="https://stoicatedy.ovh/info" rel="nofollow" class="fa-info-circle">Info</a></li>
-					</li>
-				</ul>
-			</footer>
-		</section>
-
-		<footer id="footer">
-			<ul class="copyright">
-				<li>&copy; Stoica Tedy</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</footer>
-
-	</div>
-
-	<script>
-		if ('addEventListener' in window) {
-			window.addEventListener('load', function () {
-				document.body.className = document.body.className.replace(/\bis-preload\b/, '');
-			});
-			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-		}
-	</script>
-
-</body>
-
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Stoica Tedy
+    </title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="https://stoicatedy.ovh/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="https://stoicatedy.ovh/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="loading">
+      <div id="leftloading"></div>
+      <div id="rightloading"></div>
+      <div id="text">
+        <h1>Tedy Stoica</h1>
+        <div id="spinner"></div>
+      </div>
+    </div>
+    <div id="basic_info">
+      <div
+        id="profile_img"
+        style="background: url(https://avatars0.githubusercontent.com/u/13637623) center;"
+      ></div>
+      <div id="username">
+        <span style="display:block;">Tedy Stoica</span>@Tedyst
+      </div>
+      <div id="about">
+        <span style="display:block;"
+          ><i class="fas fa-link"></i
+          ><a href="https://stoicatedy.ovh/">stoicatedy.ovh</a></span
+        >
+        <span style="display:block;"
+          ><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Romania</span
+        >
+      </div>
+    </div>
+    <div id="left_panel">
+      <b id="homebutton">Home</b><br /><br />
+      <b id="info">Where can I be found?</b>
+      <ul>
+        <li><i class="fab fa-github"></i> &nbsp; <b id="github">GitHub</b></li>
+        <li>
+          <i class="far fa-envelope"></i> &nbsp;
+          <b id="email">Personal E-Mail</b>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i> &nbsp; <b id="linkedin">LinkedIn</b>
+        </li>
+      </ul>
+      <b id="projectsbutton">My Projects</b>
+    </div>
+    <div id="right-panel">
+      <div id="start" class="insider animated fadeIn"></div>
+      <div id="informations" class="insider animated fadeIn">
+        <h2>Where can I be found?</h2>
+        <div id="where">
+          <a href="https://github.com/Tedyst" target="_blank">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+          <a href="mailto:stoicatedy@gmail.com" target="_blank">
+            <i class="far fa-envelope big-icon"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/stoica-tedy-bb29b8163/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </div>
+        <div id="myprojects">
+          <h2>My projects</h2>
+          <div class="projects" id="projectslistid"></div>
+        </div>
+        <div class="center">I suck at design</div>
+      </div>
+    </div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/zeva-ui/zeva/dist/css/zeva.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/skins/desert.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <script src="assets/js/projects.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  </body>
 </html>
