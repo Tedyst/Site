@@ -1,0 +1,15 @@
+name: Test site speed
+on: [push, pull_request]
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: 
+      - uses: Tedyst/lighthouse-action@master
+        with:
+          url: 'docs'
+      - uses: actions/upload-artifact@master
+        with:
+          name: report
+          path: './report'
