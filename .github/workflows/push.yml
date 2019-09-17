@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: Tedyst/lighthouse-action@testing
+      - uses: Tedyst/lighthouse-action@feature-deployment
         with:
-          url: 'docs'
+          url: 'https://stoicatedy.ovh'
       - uses: actions/upload-artifact@master
         with:
           name: report
